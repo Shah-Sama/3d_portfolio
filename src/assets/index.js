@@ -18,19 +18,25 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import python from "./tech/python.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import rivian from "./company/rivian.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cyberium from './company/cyberium.png'
+import savi from './company/savi.png';
+import kpmg from './company/kpmg.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  rivian,
   logo,
   backend,
   creator,
@@ -38,6 +44,7 @@ export {
   web,
   github,
   menu,
+  python,
   close,
   css,
   docker,
@@ -55,6 +62,9 @@ export {
   meta,
   shopify,
   starbucks,
+  cyberium,
+  savi,
+  kpmg,
   tesla,
   carrent,
   jobit,

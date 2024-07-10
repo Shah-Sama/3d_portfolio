@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  python,
   reactjs,
   redux,
   tailwind,
@@ -15,8 +16,12 @@ import {
   git,
   figma,
   docker,
+  cyberium,
+  savi,
+  kpmg,
   meta,
   starbucks,
+  rivian,
   tesla,
   shopify,
   carrent,
@@ -50,11 +55,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "ML/AI Developer",
     icon: creator,
   },
 ];
@@ -81,20 +86,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -112,28 +109,29 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "python",
+    icon: python,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Intern",
+    company_name: "Rivian",
+    icon: rivian,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2024 - April 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Incoming Software Engineering Intern on the Vehicle Management Software Team"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Cyberium Group",
+    icon: cyberium,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2024 - August 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +140,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer Intern",
+    company_name: "Savi Finance",
+    icon: savi,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "January 2024 - April 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +153,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Audit Intern",
+    company_name: "KPMG",
+    icon: kpmg,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2022 - August 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
