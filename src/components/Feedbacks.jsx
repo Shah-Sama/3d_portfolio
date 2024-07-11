@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+// import { testimonials } from "../constants";  // Make sure this line is commented out
 
 const FeedbackCard = ({
   index,
@@ -44,6 +44,12 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
+  const testimonials = []; // Define an empty array
+
+  if (testimonials.length === 0) {
+    return null; // Return null if there are no testimonials
+  }
+
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
@@ -56,7 +62,7 @@ const Feedbacks = () => {
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+          <FeedbackCard key={index} index={index} {...testimonial} />
         ))}
       </div>
     </div>
