@@ -45,8 +45,12 @@ import thrifty from "./thrifty.png";
 import airunner from "./AIRUNNER.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cloud from "./cloud.png";
+import hdc from "./HDC.png";
 
 export {
+  hdc,
+  cloud,
   c,
   cplusplus,
   csharp,

@@ -1,4 +1,5 @@
 import {
+  hdc,
   mobile,
   backend,
   creator,
@@ -9,6 +10,7 @@ import {
   css,
   python,
   reactjs,
+  cloud,
   redux,
   tailwind,
   nodejs,
@@ -275,49 +277,49 @@ const projects = [
       },
     ],
     image: thrifty,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Shah-Sama/ThrifyGrocer",
   },
   {
-    name: "Custom CPU Simulator",
+    name: "Cloud Monitoring Application",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple and easy way to see your CPU and Memory metrics using EKS cluster and Docker container.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "docker",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "kubernetes",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cloud,
+    source_code_link: "https://github.com/Shah-Sama/Cloud-Monitoring-App",
   },
   {
-    name: "Trip Guide",
+    name: "ML Heart Disease Classifer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An ML model degined to predict the likelyhood of heart disease based on predisposed factors such as cholesterol, age, weight etc.",
     tags: [
       {
-        name: "nextjs",
+        name: "R",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Jupyter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tidyverse",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hdc,
+    source_code_link: "https://github.com/Shah-Sama/Machine-Learning--HDC",
   },
 ];
 
