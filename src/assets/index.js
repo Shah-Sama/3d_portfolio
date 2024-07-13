@@ -7,7 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
 import css from "./tech/css.png";
+import csharp from "./tech/csharp.png"; // Ensure the filename is exactly "csharp.png"
+import c from "./tech/c.png";
+import cplusplus from "./tech/cplusplus.png";
+import go from "./tech/go.png";
+import java from "./tech/java.png";
+import r from "./tech/r.png";
+import sql from "./tech/sql.png"; // Ensure the filename is exactly "sql.png"
+
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -32,10 +41,19 @@ import savi from './company/savi.png';
 import kpmg from './company/kpmg.png';
 
 import carrent from "./carrent.png";
+import thrifty from "./thrifty.png";
+import airunner from "./AIRUNNER.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  c,
+  cplusplus,
+  csharp,
+  go,
+  r,
+  sql,
+  java,
   rivian,
   logo,
   backend,
@@ -60,6 +78,8 @@ export {
   typescript,
   threejs,
   meta,
+  airunner,
+  thrifty,
   shopify,
   starbucks,
   cyberium,

@@ -28,6 +28,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  go,
+  c,
+  csharp,
+  java,
+  cplusplus,
+  airunner,
+  thrifty,
+  sql,
+  r
+
 } from "../assets";
 
 export const navLinks = [
@@ -93,18 +103,18 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -112,7 +122,37 @@ const technologies = [
   {
     name: "python",
     icon: python,
-  }
+  },
+  {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "cplus",
+    icon: cplusplus,
+  },
+  {
+    name: "go",
+    icon: go,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  // {
+  //   name: "r",
+  //   icon: r,
+  // },
+  // {
+  //   name: "csharp",
+  //   icon: csharp,
+  // },
+  // {
+  //   name: "sql",
+  //   icon: sql,
+  // },
+
+
 ];
 
 const experiences = [
@@ -196,45 +236,66 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Music Runner",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI powered music runner game that has obstacles and uses the spotify API to play music. Music uses skybox AI to determine how you feel and change background",
     tags: [
       {
-        name: "react",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "C#",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "API",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: airunner,
+    source_code_link: "https://github.com/Shah-Sama/Music-VideoGame",
+  },
+  {
+    name: "Thrifty Grocers",
+    description:
+      "In an effort to combat high grocery prices. Me and my friends took initiative together on an alternative for UBC. I was the web developer for the website which had 50+ orders ",
+    tags: [
+      {
+        name: "Go",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thrifty,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Custom CPU Simulator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
   {

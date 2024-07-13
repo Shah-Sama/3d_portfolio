@@ -10,7 +10,12 @@ import {
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+  const [decal, error] = useTexture([props.imgUrl]);
+
+  if (error) {
+    console.error("Error loading texture:", error);
+    return null; // Return null if there's an error loading the texture
+  }
 
   return (
     <mesh castShadow receiveShadow scale={2.75}>
@@ -45,7 +50,6 @@ const BallCanvas = ({ icon }) => {
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
