@@ -48,6 +48,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import cloud from "./cloud.png";
 import hdc from "./HDC.png";
+import cpu from "./img_1.png";
 
 export {
   hdc,
@@ -95,4 +96,5 @@ export {
   jobit,
   tripguide,
   sigmatec,
+  cpu,
 };

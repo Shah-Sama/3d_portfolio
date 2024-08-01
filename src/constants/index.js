@@ -4,6 +4,7 @@ import {
   backend,
   creator,
   web,
+  cpu,
   javascript,
   typescript,
   html,
@@ -330,6 +331,27 @@ const projects = [
     ],
     image: hdc,
     source_code_link: "https://github.com/Shah-Sama/Machine-Learning--HDC",
+  },
+  {
+    name: "CPU-Simulator",
+    description:
+      "The simulator implements the fetch-execute cycle for a simplified 32-bit CPU architecture and allows users to step through assembly code, observing changes in memory and register values in real-time.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JUnit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Assembly",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cpu,
+    source_code_link: "https://github.com/Shah-Sama/CPU-Simulator",
   },
 ];
 
