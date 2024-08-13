@@ -1,4 +1,5 @@
 import {
+  stock,
   hdc,
   mobile,
   backend,
@@ -248,6 +249,27 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "Stock Market Predictor",
+    description:
+      "An intuitive tool for predicting stock prices using Python, TensorFlow, and Streamlit, offering a user-friendly interface for real-time data analysis.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: stock,
+    source_code_link: "https://github.com/Shah-Sama/StockMarketPredictor",
+  },
   {
     name: "AI Music Runner",
     description:

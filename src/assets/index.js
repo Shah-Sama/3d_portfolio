@@ -49,8 +49,11 @@ import tripguide from "./tripguide.png";
 import cloud from "./cloud.png";
 import hdc from "./HDC.png";
 import cpu from "./img_1.png";
+import stock from "./stock.png";
+
 
 export {
+  stock,
   hdc,
   cloud,
   c,
