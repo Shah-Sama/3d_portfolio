@@ -38,6 +38,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cyberium from './company/cyberium.png'
+import amazon from './company/amazon.png';
+import rvtech from './company/rvtech.png';
 import savi from './company/savi.png';
 import kpmg from './company/kpmg.png';
 
@@ -53,6 +55,8 @@ import stock from "./stock.png";
 
 
 export {
+  amazon,
+  rvtech,
   stock,
   hdc,
   cloud,

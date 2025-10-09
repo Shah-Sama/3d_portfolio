@@ -15,6 +15,8 @@ import {
   cloud,
   redux,
   tailwind,
+  amazon,
+  rvtech,
   nodejs,
   mongodb,
   git,
@@ -162,13 +164,42 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer Intern",
+    company_name: "Amazon",
+    icon: amazon,
+    iconBg: "#232F3E",
+    date: "May 2025 - August 2025",
+    points: [
+      "Owned a Tier-2 service streaming live Amazon.com tax information to 500+ clients with high reliability and availability.",
+      "Automated code review creation in the tax data streaming service using SNS, Lambda, S3, and DynamoDB, enabling PMs to streamline workflows and reducing a week-long manual process to hours.",
+      "Built a Retrieval-Augmented Generation (RAG) tax chatbot using API Gateway, Lambda, Amazon Bedrock, and Kendra indexing with internal knowledge bases, decreasing tax team onboarding time by 65%.",
+      "Delivered local filter storage using Java and React, enabling users to save preferences and boost productivity by 35%."
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Rivian and Volkswagen Group Technologies",
+    icon: rvtech,
+    iconBg: "#383E56",
+    date: "January 2025 - April 2025",
+    points: [
+      "Developed the Rivian mobile AI chat assistant, improving support accuracy by 70% using Go and Python.",
+      "Integrated BLEU, ROUGE, and semantic similarity scoring to evaluate AI responses against ground truths.",
+      "Enhanced the RAG system in the Rivian Owners Guide, linking queries to relevant content to improve user satisfaction.",
+      "Implemented diagnostic workflows for model decision paths, reducing troubleshooting time and boosting maintainability."
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Rivian",
     icon: rivian,
     iconBg: "#383E56",
-    date: "September 2024 - April 2025",
+    date: "September 2024 - December 2024",
     points: [
-      "Incoming Software Engineering Intern on the Vehicle Management Software Team"
+    "Enhanced security for 400,000+ Rivian accounts by leading MFA implementation, improving authentication reliability.",
+    "Managed 50+ GitLab pipelines for Appium E2E tests, improving CI/CD reliability and reducing test flakiness by 15%.",
+    "Designed the Mobile 3.0 system architecture for test automation, integrating Appium and CI/CD workflows to enhance validation efficiency across Rivian’s mobile platform.",
+    "Validated API performance with 100+ GQL and REST requests, ensuring 98.5% uptime during testing cycles."
     ],
   },
   {
